@@ -1,0 +1,531 @@
+schema_version: 2
+table: table4
+points:
+- point_id: table4_cora_gat_
+  table: table4
+  setting: FeatFree-P
+  fixed_params:
+    dataset: cora
+    feature: operator
+    scale: '1'
+    feature_preprojection: false
+    mechanism: mbm
+    x_eps: inf
+    m: best
+    norm: false
+    norm_scale: none
+    backbone: gat
+    use_nfr: false
+  candidate:
+    x_steps: 32
+    learning_rate: '0.01'
+    weight_decay: '0.0001'
+    dropout: '0.5'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: table4_lastfm_gat_
+  table: table4
+  setting: FeatFree-P
+  fixed_params:
+    dataset: lastfm
+    feature: operator
+    scale: '1'
+    feature_preprojection: false
+    mechanism: mbm
+    x_eps: inf
+    m: best
+    norm: false
+    norm_scale: none
+    backbone: gat
+    use_nfr: false
+  candidate:
+    x_steps: 8
+    learning_rate: '0.01'
+    weight_decay: '0.0001'
+    dropout: '0.75'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: table4_citeseer_gat_
+  table: table4
+  setting: FeatFree-P
+  fixed_params:
+    dataset: citeseer
+    feature: operator
+    scale: '1'
+    feature_preprojection: false
+    mechanism: mbm
+    x_eps: inf
+    m: best
+    norm: false
+    norm_scale: none
+    backbone: gat
+    use_nfr: false
+  candidate:
+    x_steps: 16
+    learning_rate: '0.01'
+    weight_decay: '0.001'
+    dropout: '0.75'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: table4_facebook_gat_
+  table: table4
+  setting: FeatFree-P
+  fixed_params:
+    dataset: facebook
+    feature: operator
+    scale: '1'
+    feature_preprojection: false
+    mechanism: mbm
+    x_eps: inf
+    m: best
+    norm: false
+    norm_scale: none
+    backbone: gat
+    use_nfr: false
+  candidate:
+    x_steps: 2
+    learning_rate: '0.01'
+    weight_decay: '0.0001'
+    dropout: '0.5'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: table4_cora_gcn_
+  table: table4
+  setting: FeatFree-P
+  fixed_params:
+    dataset: cora
+    feature: operator
+    scale: '1'
+    feature_preprojection: false
+    mechanism: mbm
+    x_eps: inf
+    m: best
+    norm: false
+    norm_scale: none
+    backbone: gcn
+    use_nfr: false
+  candidate:
+    x_steps: 8
+    learning_rate: '0.01'
+    weight_decay: '0'
+    dropout: '0.25'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: table4_lastfm_gcn_
+  table: table4
+  setting: FeatFree-P
+  fixed_params:
+    dataset: lastfm
+    feature: operator
+    scale: '1'
+    feature_preprojection: false
+    mechanism: mbm
+    x_eps: inf
+    m: best
+    norm: false
+    norm_scale: none
+    backbone: gcn
+    use_nfr: false
+  candidate:
+    x_steps: 32
+    learning_rate: '0.01'
+    weight_decay: '0'
+    dropout: '0.5'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: table4_citeseer_gcn_
+  table: table4
+  setting: FeatFree-P
+  fixed_params:
+    dataset: citeseer
+    feature: operator
+    scale: '1'
+    feature_preprojection: false
+    mechanism: mbm
+    x_eps: inf
+    m: best
+    norm: false
+    norm_scale: none
+    backbone: gcn
+    use_nfr: false
+  candidate:
+    x_steps: 4
+    learning_rate: '0.01'
+    weight_decay: '0.001'
+    dropout: '0.75'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: table4_facebook_gcn_
+  table: table4
+  setting: FeatFree-P
+  fixed_params:
+    dataset: facebook
+    feature: operator
+    scale: '1'
+    feature_preprojection: false
+    mechanism: mbm
+    x_eps: inf
+    m: best
+    norm: false
+    norm_scale: none
+    backbone: gcn
+    use_nfr: false
+  candidate:
+    x_steps: 2
+    learning_rate: '0.01'
+    weight_decay: '0'
+    dropout: '0.75'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: table4_cora_sage_
+  table: table4
+  setting: FeatFree-P
+  fixed_params:
+    dataset: cora
+    feature: operator
+    scale: '1'
+    feature_preprojection: false
+    mechanism: mbm
+    x_eps: inf
+    m: best
+    norm: false
+    norm_scale: none
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 64
+    learning_rate: '0.01'
+    weight_decay: '0.0001'
+    dropout: '0.75'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: table4_lastfm_sage_
+  table: table4
+  setting: FeatFree-P
+  fixed_params:
+    dataset: lastfm
+    feature: operator
+    scale: '1'
+    feature_preprojection: false
+    mechanism: mbm
+    x_eps: inf
+    m: best
+    norm: false
+    norm_scale: none
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 32
+    learning_rate: '0.01'
+    weight_decay: '0.0001'
+    dropout: '0.25'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: table4_citeseer_sage_
+  table: table4
+  setting: FeatFree-P
+  fixed_params:
+    dataset: citeseer
+    feature: operator
+    scale: '1'
+    feature_preprojection: false
+    mechanism: mbm
+    x_eps: inf
+    m: best
+    norm: false
+    norm_scale: none
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 8
+    learning_rate: '0.01'
+    weight_decay: '0.001'
+    dropout: '0.75'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: table4_facebook_sage_
+  table: table4
+  setting: FeatFree-P
+  fixed_params:
+    dataset: facebook
+    feature: operator
+    scale: '1'
+    feature_preprojection: false
+    mechanism: mbm
+    x_eps: inf
+    m: best
+    norm: false
+    norm_scale: none
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 2
+    learning_rate: '0.01'
+    weight_decay: '0.0001'
+    dropout: '0.5'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3

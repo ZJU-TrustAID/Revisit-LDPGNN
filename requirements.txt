@@ -1,0 +1,24 @@
+# Python 3.10/3.11 is required; torch-sparse 0.6.18 has no Python 3.13 wheel.
+torch>=2.8,<2.9
+torch-geometric==2.8.0
+torch-scatter>=2.1.2,<2.2
+torch-sparse>=0.6.18,<0.6.19
+numpy==2.2.6
+pandas==2.3.3
+matplotlib==3.10.9
+PyYAML==6.0.3
+tqdm==4.67.3
+ogb==1.3.6
+scipy==1.15.3
+networkx==3.4.2
+gensim==4.4.0
+six==1.17.0
+pytest==9.0.3
+# AEC notebook dependencies
+nbformat>=5.10,<6
+nbclient>=0.10,<1
+jupyter>=1.0,<2
+ipykernel>=6.29,<7
+requests>=2.31,<3
+aiohttp>=3.9,<4
+fsspec>=2024.1

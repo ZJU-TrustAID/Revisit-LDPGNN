@@ -1,0 +1,73 @@
+schema_version: 1
+default_mode: scaled
+figures:
+  1:
+    claim: main privacy-utility comparison
+    datasets:
+    - cora
+    - facebook
+    backbones:
+    - gcn
+    - gat
+    - sage
+    methods:
+    - LPGNN
+    - PrivGE
+    - UPGNET-MBM
+    - UPGNET-PM
+    - FeatFree
+    - Non-private
+    x_axis: x_eps
+  2:
+    claim: analytic Cora coefficient curves
+    datasets:
+    - cora
+    mode: analytic
+  3:
+    claim: LDP/SIM mechanism comparison
+    datasets:
+    - cora
+    backbones:
+    - sage
+    x_axis: x_eps
+  4:
+    claim: norm-scale curves
+    datasets:
+    - cora
+    backbones:
+    - sage
+    x_axis: norm_scale
+  5:
+    claim: tao2 curves
+    datasets:
+    - cora
+    backbones:
+    - sage
+    x_axis: tao2
+  6:
+    claim: heterophilous privacy-utility comparison
+    datasets:
+    - actor
+    - flickr
+    backbones:
+    - sage
+    methods:
+    - LPGNN
+    - PrivGE
+    - UPGNET-MBM
+    - UPGNET-PM
+    - FeatFree
+    - Non-private
+    x_axis: x_eps
+  7:
+    claim: Flickr norm-scale curves
+    datasets:
+    - flickr
+    backbones:
+    - sage
+    x_axis: norm_scale
+  8:
+    claim: analytic Cora PM/HDS curves
+    datasets:
+    - cora
+    mode: analytic

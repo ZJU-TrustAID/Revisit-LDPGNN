@@ -1,0 +1,3571 @@
+schema_version: 2
+figure_id: 5
+points:
+- point_id: f5_6179ca57b29209cd
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.0001'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 4
+    learning_rate: '0.001'
+    weight_decay: '0.001'
+    dropout: '0.25'
+    tao2: '0.5'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_a11121e97f259abf
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.0001'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 4
+    learning_rate: '0.001'
+    weight_decay: '0.01'
+    dropout: '0.25'
+    tao2: '0.75'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_365b10b1aa6f68f3
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.0001'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 4
+    learning_rate: '0.001'
+    weight_decay: '0.001'
+    dropout: '0.25'
+    tao2: '0.875'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_d45213f96022480d
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.0001'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 4
+    learning_rate: '0.001'
+    weight_decay: '0.0001'
+    dropout: '0.25'
+    tao2: '0.9375'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_3fc1980c885956bd
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.0001'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 4
+    learning_rate: '0.001'
+    weight_decay: '0.0001'
+    dropout: '0.25'
+    tao2: '0.96875'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_fac01d89a591f5e0
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.0001'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 4
+    learning_rate: '0.001'
+    weight_decay: '0.0001'
+    dropout: '0.25'
+    tao2: '0.984375'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_e1fc189944e585a2
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.0001'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 4
+    learning_rate: '0.001'
+    weight_decay: '0.0001'
+    dropout: '0.25'
+    tao2: '0.9921875'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_aabd69c57b7332ab
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.0001'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 4
+    learning_rate: '0.001'
+    weight_decay: '0.001'
+    dropout: '0.25'
+    tao2: '0.99609375'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_006d9afd68260194
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.0001'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 4
+    learning_rate: '0.001'
+    weight_decay: '0.0'
+    dropout: '0.25'
+    tao2: '0.998046875'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_a032a495509ee05f
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.0001'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 4
+    learning_rate: '0.001'
+    weight_decay: '0.0'
+    dropout: '0.25'
+    tao2: '0.9990234375'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_f951697edaf93ddb
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.0001'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 64
+    learning_rate: '0.0001'
+    weight_decay: '0.01'
+    dropout: '0.5'
+    tao2: '0.99951171875'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_ffb1daa05575a41c
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.0001'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 64
+    learning_rate: '0.0001'
+    weight_decay: '0.01'
+    dropout: '0.5'
+    tao2: '0.999755859375'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_dce3426c1360b5f4
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.0001'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 64
+    learning_rate: '0.0001'
+    weight_decay: '0.0'
+    dropout: '0.5'
+    tao2: '0.999877929688'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_9527fb431175a6e2
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.0001'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 64
+    learning_rate: '0.001'
+    weight_decay: '0.001'
+    dropout: '0.25'
+    tao2: '0.999938964844'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_53654420e2268b15
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.0001'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 64
+    learning_rate: '0.01'
+    weight_decay: '0.01'
+    dropout: '0.75'
+    tao2: '0.999969482422'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_48a7c1a6529acf8d
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.0001'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 16
+    learning_rate: '0.01'
+    weight_decay: '0.01'
+    dropout: '0.75'
+    tao2: '0.999984741211'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_9a66750b0cdb54fc
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.001'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 4
+    learning_rate: '0.001'
+    weight_decay: '0.0001'
+    dropout: '0.25'
+    tao2: '0.5'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_b7b5164110b1ddf6
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.001'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 4
+    learning_rate: '0.001'
+    weight_decay: '0.0001'
+    dropout: '0.25'
+    tao2: '0.75'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_bfc563202482a480
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.001'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 4
+    learning_rate: '0.001'
+    weight_decay: '0.0001'
+    dropout: '0.25'
+    tao2: '0.875'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_e501e72ebf0133fc
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.001'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 4
+    learning_rate: '0.001'
+    weight_decay: '0.0001'
+    dropout: '0.25'
+    tao2: '0.9375'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_0ccd43e8376574a2
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.001'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 4
+    learning_rate: '0.001'
+    weight_decay: '0.0'
+    dropout: '0.25'
+    tao2: '0.96875'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_32c0f9397746bd05
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.001'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 4
+    learning_rate: '0.001'
+    weight_decay: '0.01'
+    dropout: '0.25'
+    tao2: '0.984375'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_5a8735cd57871823
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.001'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 4
+    learning_rate: '0.001'
+    weight_decay: '0.01'
+    dropout: '0.25'
+    tao2: '0.9921875'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_d314bd6590a638e3
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.001'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 64
+    learning_rate: '0.0001'
+    weight_decay: '0.0001'
+    dropout: '0.5'
+    tao2: '0.99609375'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_3374d7fac8fb04a6
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.001'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 64
+    learning_rate: '0.0001'
+    weight_decay: '0.0'
+    dropout: '0.5'
+    tao2: '0.998046875'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_ce1b0134dd83803e
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.001'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 32
+    learning_rate: '0.0001'
+    weight_decay: '0.01'
+    dropout: '0.25'
+    tao2: '0.9990234375'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_93b03560b3659eb3
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.001'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 64
+    learning_rate: '0.01'
+    weight_decay: '0.01'
+    dropout: '0.75'
+    tao2: '0.99951171875'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_7345771e6e44e80a
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.001'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 64
+    learning_rate: '0.01'
+    weight_decay: '0.01'
+    dropout: '0.75'
+    tao2: '0.999755859375'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_339b1d156a1ca0b5
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.001'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 64
+    learning_rate: '0.01'
+    weight_decay: '0.01'
+    dropout: '0.75'
+    tao2: '0.999877929688'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_3ec641e471326965
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.001'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 64
+    learning_rate: '0.01'
+    weight_decay: '0.01'
+    dropout: '0.75'
+    tao2: '0.999938964844'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_e8f6a8359c9a5df3
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.001'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 64
+    learning_rate: '0.01'
+    weight_decay: '0.01'
+    dropout: '0.25'
+    tao2: '0.999969482422'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_0a02cf42bb4abb1d
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.001'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 32
+    learning_rate: '0.001'
+    weight_decay: '0.01'
+    dropout: '0.75'
+    tao2: '0.999984741211'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_05715f2d2f3f6837
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.01'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 4
+    learning_rate: '0.001'
+    weight_decay: '0.0001'
+    dropout: '0.25'
+    tao2: '0.5'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_bc39eb2c8b1f32fd
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.01'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 4
+    learning_rate: '0.001'
+    weight_decay: '0.01'
+    dropout: '0.25'
+    tao2: '0.75'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_fead86d1c3bb5794
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.01'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 4
+    learning_rate: '0.001'
+    weight_decay: '0.01'
+    dropout: '0.25'
+    tao2: '0.875'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_e688bd0ae9b8f6fc
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.01'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 32
+    learning_rate: '0.0001'
+    weight_decay: '0.001'
+    dropout: '0.25'
+    tao2: '0.9375'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_50841de2b9019571
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.01'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 64
+    learning_rate: '0.0001'
+    weight_decay: '0.01'
+    dropout: '0.25'
+    tao2: '0.96875'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_54c08c16c5816977
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.01'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 64
+    learning_rate: '0.0001'
+    weight_decay: '0.0'
+    dropout: '0.5'
+    tao2: '0.984375'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_e7b060ebc2ca1821
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.01'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 32
+    learning_rate: '0.0001'
+    weight_decay: '0.0'
+    dropout: '0.5'
+    tao2: '0.9921875'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_d428e96a23e2c8f0
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.01'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 64
+    learning_rate: '0.01'
+    weight_decay: '0.01'
+    dropout: '0.5'
+    tao2: '0.99609375'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_c013194202972c17
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.01'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 64
+    learning_rate: '0.01'
+    weight_decay: '0.01'
+    dropout: '0.75'
+    tao2: '0.998046875'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_cbbd2136d85c0c07
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.01'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 64
+    learning_rate: '0.01'
+    weight_decay: '0.01'
+    dropout: '0.75'
+    tao2: '0.9990234375'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_eebfb20de136210c
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.01'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 64
+    learning_rate: '0.01'
+    weight_decay: '0.01'
+    dropout: '0.25'
+    tao2: '0.99951171875'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_d9d5bec8bb1f40b5
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.01'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 64
+    learning_rate: '0.01'
+    weight_decay: '0.01'
+    dropout: '0.25'
+    tao2: '0.999755859375'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_e6db845544e5774a
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.01'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 32
+    learning_rate: '0.01'
+    weight_decay: '0.01'
+    dropout: '0.75'
+    tao2: '0.999877929688'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_25d12c7d7c49e662
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.01'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 32
+    learning_rate: '0.01'
+    weight_decay: '0.01'
+    dropout: '0.5'
+    tao2: '0.999938964844'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_736931a7ccfe9155
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.01'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 8
+    learning_rate: '0.01'
+    weight_decay: '0.01'
+    dropout: '0.75'
+    tao2: '0.999969482422'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_243329a4e44ceed3
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.01'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 8
+    learning_rate: '0.01'
+    weight_decay: '0.01'
+    dropout: '0.5'
+    tao2: '0.999984741211'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_120fb4aee2b4c4d9
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.1'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 4
+    learning_rate: '0.001'
+    weight_decay: '0.01'
+    dropout: '0.25'
+    tao2: '0.5'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_166954ab3b465439
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.1'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 64
+    learning_rate: '0.0001'
+    weight_decay: '0.0001'
+    dropout: '0.25'
+    tao2: '0.75'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_29577aaf38de5d3f
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.1'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 64
+    learning_rate: '0.0001'
+    weight_decay: '0.01'
+    dropout: '0.25'
+    tao2: '0.875'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_6a3e957b8dba31fb
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.1'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 32
+    learning_rate: '0.001'
+    weight_decay: '0.0'
+    dropout: '0.75'
+    tao2: '0.9375'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_b1abe5d5251d02fd
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.1'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 64
+    learning_rate: '0.01'
+    weight_decay: '0.01'
+    dropout: '0.75'
+    tao2: '0.96875'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_755b10f418b0339a
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.1'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 64
+    learning_rate: '0.01'
+    weight_decay: '0.01'
+    dropout: '0.75'
+    tao2: '0.984375'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_9967ec95158dc233
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.1'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 64
+    learning_rate: '0.01'
+    weight_decay: '0.01'
+    dropout: '0.75'
+    tao2: '0.9921875'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_3964ba2d1566b5e4
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.1'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 64
+    learning_rate: '0.01'
+    weight_decay: '0.01'
+    dropout: '0.75'
+    tao2: '0.99609375'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_51e948e036779822
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.1'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 64
+    learning_rate: '0.01'
+    weight_decay: '0.01'
+    dropout: '0.75'
+    tao2: '0.998046875'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_efaefcfbc5829fbf
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.1'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 32
+    learning_rate: '0.01'
+    weight_decay: '0.01'
+    dropout: '0.25'
+    tao2: '0.9990234375'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_8d1b9d9ad1c5be49
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.1'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 16
+    learning_rate: '0.01'
+    weight_decay: '0.01'
+    dropout: '0.75'
+    tao2: '0.99951171875'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_08efd45df11fbab3
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.1'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 8
+    learning_rate: '0.01'
+    weight_decay: '0.01'
+    dropout: '0.5'
+    tao2: '0.999755859375'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_c255b55f3abff83a
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.1'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 16
+    learning_rate: '0.01'
+    weight_decay: '0.001'
+    dropout: '0.75'
+    tao2: '0.999877929688'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_e16256f8e292b93d
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.1'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 32
+    learning_rate: '0.01'
+    weight_decay: '0.001'
+    dropout: '0.75'
+    tao2: '0.999938964844'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_eec4ab126e50f8b6
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.1'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 16
+    learning_rate: '0.01'
+    weight_decay: '0.001'
+    dropout: '0.5'
+    tao2: '0.999969482422'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_9213cf5660cdee87
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.1'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 32
+    learning_rate: '0.01'
+    weight_decay: '0.0001'
+    dropout: '0.5'
+    tao2: '0.999984741211'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_e0ae7c73c6ec9c11
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '1'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 64
+    learning_rate: '0.0001'
+    weight_decay: '0.0'
+    dropout: '0.5'
+    tao2: '0.5'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_09ce289c73489015
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '1'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 64
+    learning_rate: '0.01'
+    weight_decay: '0.01'
+    dropout: '0.75'
+    tao2: '0.75'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_40665ae0c7c80a2c
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '1'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 64
+    learning_rate: '0.01'
+    weight_decay: '0.01'
+    dropout: '0.75'
+    tao2: '0.875'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_da3439c9b3ce4b5a
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '1'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 64
+    learning_rate: '0.01'
+    weight_decay: '0.01'
+    dropout: '0.75'
+    tao2: '0.9375'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_3ab88b27f493d267
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '1'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 64
+    learning_rate: '0.01'
+    weight_decay: '0.01'
+    dropout: '0.75'
+    tao2: '0.96875'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_69df678e5ff8c22b
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '1'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 32
+    learning_rate: '0.01'
+    weight_decay: '0.01'
+    dropout: '0.75'
+    tao2: '0.984375'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_870f96433b0ed7f8
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '1'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 32
+    learning_rate: '0.01'
+    weight_decay: '0.01'
+    dropout: '0.75'
+    tao2: '0.9921875'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_885d039fcdc1581f
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '1'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 32
+    learning_rate: '0.01'
+    weight_decay: '0.01'
+    dropout: '0.75'
+    tao2: '0.99609375'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_cf9cf305a4d0c2a4
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '1'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 8
+    learning_rate: '0.01'
+    weight_decay: '0.01'
+    dropout: '0.75'
+    tao2: '0.998046875'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_de8be1248648ce0e
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '1'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 32
+    learning_rate: '0.01'
+    weight_decay: '0.001'
+    dropout: '0.5'
+    tao2: '0.9990234375'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_2651e0d8f611e10c
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '1'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 32
+    learning_rate: '0.01'
+    weight_decay: '0.001'
+    dropout: '0.25'
+    tao2: '0.99951171875'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_1408c8010118d1c9
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '1'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 16
+    learning_rate: '0.01'
+    weight_decay: '0.001'
+    dropout: '0.25'
+    tao2: '0.999755859375'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_2bda881966a4d77b
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '1'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 32
+    learning_rate: '0.01'
+    weight_decay: '0.0001'
+    dropout: '0.25'
+    tao2: '0.999877929688'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_55c171b6a7e34404
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '1'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 8
+    learning_rate: '0.01'
+    weight_decay: '0.0001'
+    dropout: '0.5'
+    tao2: '0.999938964844'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_a3bce80453f1a43d
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '1'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 16
+    learning_rate: '0.01'
+    weight_decay: '0.0'
+    dropout: '0.5'
+    tao2: '0.999969482422'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_d2b1eeaa3b98c270
+  figure_id: 5
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '1'
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: true
+  candidate:
+    x_steps: 8
+    learning_rate: '0.01'
+    weight_decay: '0.0'
+    dropout: '0.25'
+    tao2: '0.999984741211'
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f5_featfree_baseline
+  figure_id: 5
+  scalar_baseline: true
+  base_seed: 12345
+  fixed_params:
+    dataset: cora
+    feature: random_normal
+    feature_dim: 1433
+    scale: '1'
+    random_normal_mean: '0'
+    random_normal_std: '1'
+    mechanism: mbm
+    x_eps: inf
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 32
+    learning_rate: '0.01'
+    weight_decay: '0.01'
+    dropout: '0.75'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3

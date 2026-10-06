@@ -1,0 +1,5331 @@
+schema_version: 2
+figure_id: 7
+points:
+- point_id: f7_1bfeff69ecfc3fc3
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.0001'
+    m: best
+    norm: true
+    norm_scale: '0.015625'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 0
+    learning_rate: '0.01'
+    weight_decay: '0.001'
+    dropout: '0.5'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_a65cbbb1bc1e879d
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.0001'
+    m: best
+    norm: true
+    norm_scale: '0.03125'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 0
+    learning_rate: '0.01'
+    weight_decay: '0.001'
+    dropout: '0.5'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_8cfc3c64ed65c508
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.0001'
+    m: best
+    norm: true
+    norm_scale: '0.0625'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 0
+    learning_rate: '0.01'
+    weight_decay: '0.001'
+    dropout: '0.5'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_0e86c12796dffab2
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.0001'
+    m: best
+    norm: true
+    norm_scale: '0.125'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 0
+    learning_rate: '0.01'
+    weight_decay: '0.001'
+    dropout: '0.5'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_eb7e5ea5c4d43e18
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.0001'
+    m: best
+    norm: true
+    norm_scale: '0.25'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 0
+    learning_rate: '0.01'
+    weight_decay: '0.001'
+    dropout: '0.5'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_c4789d0fa876b87f
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.0001'
+    m: best
+    norm: true
+    norm_scale: '0.5'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 0
+    learning_rate: '0.01'
+    weight_decay: '0.001'
+    dropout: '0.5'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_f47bf026bd0c7085
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.0001'
+    m: best
+    norm: true
+    norm_scale: '1'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 0
+    learning_rate: '0.01'
+    weight_decay: '0.001'
+    dropout: '0.5'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_fae3c8a158de3273
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.0001'
+    m: best
+    norm: true
+    norm_scale: '2'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 0
+    learning_rate: '0.01'
+    weight_decay: '0.001'
+    dropout: '0.5'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_3c7a8f671b14d307
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.0001'
+    m: best
+    norm: true
+    norm_scale: '4'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 0
+    learning_rate: '0.01'
+    weight_decay: '0.001'
+    dropout: '0.5'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_182814c7ae825983
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.0001'
+    m: best
+    norm: true
+    norm_scale: '8'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 0
+    learning_rate: '0.01'
+    weight_decay: '0.001'
+    dropout: '0.5'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_fa274d8830458808
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.0001'
+    m: best
+    norm: true
+    norm_scale: '16'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 0
+    learning_rate: '0.01'
+    weight_decay: '0.001'
+    dropout: '0.5'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_eafe2b8f51622d42
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.0001'
+    m: best
+    norm: true
+    norm_scale: '32'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 0
+    learning_rate: '0.01'
+    weight_decay: '0.01'
+    dropout: '0.5'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_110ae45fa48952cc
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.0001'
+    m: best
+    norm: true
+    norm_scale: '64'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 0
+    learning_rate: '0.01'
+    weight_decay: '0.0001'
+    dropout: '0.5'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_2b702fc6ae3eeb92
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.0001'
+    m: best
+    norm: true
+    norm_scale: '128'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 0
+    learning_rate: '0.01'
+    weight_decay: '0.001'
+    dropout: '0.5'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_fafdbd0110f67038
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.0001'
+    m: best
+    norm: true
+    norm_scale: '256'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 0
+    learning_rate: '0.01'
+    weight_decay: '0.001'
+    dropout: '0.5'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_88689c42e2ee7203
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.0001'
+    m: best
+    norm: true
+    norm_scale: '512'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 0
+    learning_rate: '0.01'
+    weight_decay: '0.01'
+    dropout: '0.5'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_26e4b955885d0ccb
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.0001'
+    m: best
+    norm: true
+    norm_scale: '1024'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 0
+    learning_rate: '0.01'
+    weight_decay: '0.01'
+    dropout: '0.5'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_2a59e3769fce7588
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.0001'
+    m: best
+    norm: true
+    norm_scale: '2048'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 0
+    learning_rate: '0.001'
+    weight_decay: '0.0'
+    dropout: '0.75'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_46dac18ddc5d0547
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.0001'
+    m: best
+    norm: true
+    norm_scale: '4096'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 4
+    learning_rate: '0.0001'
+    weight_decay: '0.0001'
+    dropout: '0.25'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_dc54f343b903f3cd
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.0001'
+    m: best
+    norm: true
+    norm_scale: '8192'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 4
+    learning_rate: '0.0001'
+    weight_decay: '0.01'
+    dropout: '0.25'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_24c48e58298b9156
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.0001'
+    m: best
+    norm: true
+    norm_scale: '16384'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 8
+    learning_rate: '0.0001'
+    weight_decay: '0.01'
+    dropout: '0.25'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_12644bcb8e872a3a
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.0001'
+    m: best
+    norm: true
+    norm_scale: '32768'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 8
+    learning_rate: '0.0001'
+    weight_decay: '0.01'
+    dropout: '0.25'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_198c709bc2330590
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.0001'
+    m: best
+    norm: true
+    norm_scale: '65536'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 8
+    learning_rate: '0.0001'
+    weight_decay: '0.01'
+    dropout: '0.25'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_21a7b8802cb1c0d5
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.0001'
+    m: best
+    norm: true
+    norm_scale: '131072'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 8
+    learning_rate: '0.0001'
+    weight_decay: '0.01'
+    dropout: '0.25'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_eb493d3dfe38e919
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.001'
+    m: best
+    norm: true
+    norm_scale: '0.015625'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 0
+    learning_rate: '0.01'
+    weight_decay: '0.0001'
+    dropout: '0.5'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_0c346238f87c2e18
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.001'
+    m: best
+    norm: true
+    norm_scale: '0.03125'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 0
+    learning_rate: '0.01'
+    weight_decay: '0.0001'
+    dropout: '0.5'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_e500d17b76b489c2
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.001'
+    m: best
+    norm: true
+    norm_scale: '0.0625'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 0
+    learning_rate: '0.01'
+    weight_decay: '0.0001'
+    dropout: '0.5'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_a307e029285b11ff
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.001'
+    m: best
+    norm: true
+    norm_scale: '0.125'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 0
+    learning_rate: '0.01'
+    weight_decay: '0.0001'
+    dropout: '0.5'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_f5d89ef201fff025
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.001'
+    m: best
+    norm: true
+    norm_scale: '0.25'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 0
+    learning_rate: '0.01'
+    weight_decay: '0.0001'
+    dropout: '0.5'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_5ba81954ec60c017
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.001'
+    m: best
+    norm: true
+    norm_scale: '0.5'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 0
+    learning_rate: '0.01'
+    weight_decay: '0.0001'
+    dropout: '0.5'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_ceadfef8602c01d7
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.001'
+    m: best
+    norm: true
+    norm_scale: '1'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 0
+    learning_rate: '0.01'
+    weight_decay: '0.001'
+    dropout: '0.5'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_4da708470c72c8c6
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.001'
+    m: best
+    norm: true
+    norm_scale: '2'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 0
+    learning_rate: '0.01'
+    weight_decay: '0.001'
+    dropout: '0.5'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_f2bedeaa205c1e25
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.001'
+    m: best
+    norm: true
+    norm_scale: '4'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 0
+    learning_rate: '0.01'
+    weight_decay: '0.0001'
+    dropout: '0.5'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_313050cc9ff82e7a
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.001'
+    m: best
+    norm: true
+    norm_scale: '8'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 0
+    learning_rate: '0.001'
+    weight_decay: '0.0'
+    dropout: '0.75'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_30b17d769f822eaf
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.001'
+    m: best
+    norm: true
+    norm_scale: '16'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 0
+    learning_rate: '0.01'
+    weight_decay: '0.001'
+    dropout: '0.5'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_0e49f0920e9df2e4
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.001'
+    m: best
+    norm: true
+    norm_scale: '32'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 0
+    learning_rate: '0.01'
+    weight_decay: '0.01'
+    dropout: '0.5'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_1f4b02a6c8fed99a
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.001'
+    m: best
+    norm: true
+    norm_scale: '64'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 0
+    learning_rate: '0.01'
+    weight_decay: '0.0'
+    dropout: '0.5'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_e42f3560eaebf6b5
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.001'
+    m: best
+    norm: true
+    norm_scale: '128'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 0
+    learning_rate: '0.01'
+    weight_decay: '0.01'
+    dropout: '0.5'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_0684212b2001b46f
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.001'
+    m: best
+    norm: true
+    norm_scale: '256'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 8
+    learning_rate: '0.0001'
+    weight_decay: '0.0'
+    dropout: '0.25'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_73b705136be226a4
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.001'
+    m: best
+    norm: true
+    norm_scale: '512'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 4
+    learning_rate: '0.0001'
+    weight_decay: '0.0'
+    dropout: '0.25'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_a91aa933e0820981
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.001'
+    m: best
+    norm: true
+    norm_scale: '1024'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 4
+    learning_rate: '0.0001'
+    weight_decay: '0.0'
+    dropout: '0.25'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_9fd1f8c92892b8d7
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.001'
+    m: best
+    norm: true
+    norm_scale: '2048'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 8
+    learning_rate: '0.0001'
+    weight_decay: '0.01'
+    dropout: '0.25'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_7e1a87509b3a18a3
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.001'
+    m: best
+    norm: true
+    norm_scale: '4096'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 8
+    learning_rate: '0.0001'
+    weight_decay: '0.01'
+    dropout: '0.25'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_484afc8bbfd5cafc
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.001'
+    m: best
+    norm: true
+    norm_scale: '8192'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 8
+    learning_rate: '0.0001'
+    weight_decay: '0.01'
+    dropout: '0.25'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_2d290f64acfcb10f
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.001'
+    m: best
+    norm: true
+    norm_scale: '16384'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 4
+    learning_rate: '0.0001'
+    weight_decay: '0.01'
+    dropout: '0.25'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_d788e3e113215499
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.001'
+    m: best
+    norm: true
+    norm_scale: '32768'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 8
+    learning_rate: '0.001'
+    weight_decay: '0.01'
+    dropout: '0.25'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_7ae5ce3d867dffeb
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.001'
+    m: best
+    norm: true
+    norm_scale: '65536'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 8
+    learning_rate: '0.001'
+    weight_decay: '0.01'
+    dropout: '0.25'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_035035d5aa65ef05
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.001'
+    m: best
+    norm: true
+    norm_scale: '131072'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 4
+    learning_rate: '0.001'
+    weight_decay: '0.01'
+    dropout: '0.25'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_1a3f8a02dffb690c
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.01'
+    m: best
+    norm: true
+    norm_scale: '0.015625'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 0
+    learning_rate: '0.01'
+    weight_decay: '0.0001'
+    dropout: '0.5'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_adb7739cc15eac65
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.01'
+    m: best
+    norm: true
+    norm_scale: '0.03125'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 0
+    learning_rate: '0.01'
+    weight_decay: '0.001'
+    dropout: '0.5'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_53a83d8bf55a05ea
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.01'
+    m: best
+    norm: true
+    norm_scale: '0.0625'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 0
+    learning_rate: '0.01'
+    weight_decay: '0.001'
+    dropout: '0.5'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_dccf1fd145163963
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.01'
+    m: best
+    norm: true
+    norm_scale: '0.125'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 0
+    learning_rate: '0.01'
+    weight_decay: '0.001'
+    dropout: '0.5'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_cfee1474bd4c51e6
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.01'
+    m: best
+    norm: true
+    norm_scale: '0.25'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 0
+    learning_rate: '0.01'
+    weight_decay: '0.001'
+    dropout: '0.5'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_94c430b267b9c4f1
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.01'
+    m: best
+    norm: true
+    norm_scale: '0.5'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 0
+    learning_rate: '0.01'
+    weight_decay: '0.001'
+    dropout: '0.5'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_ccfd34e182982f74
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.01'
+    m: best
+    norm: true
+    norm_scale: '1'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 0
+    learning_rate: '0.01'
+    weight_decay: '0.0'
+    dropout: '0.5'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_a14c09dd054539f4
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.01'
+    m: best
+    norm: true
+    norm_scale: '2'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 0
+    learning_rate: '0.01'
+    weight_decay: '0.0'
+    dropout: '0.5'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_35942db2dda21233
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.01'
+    m: best
+    norm: true
+    norm_scale: '4'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 0
+    learning_rate: '0.01'
+    weight_decay: '0.0'
+    dropout: '0.5'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_04949c56806eb69a
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.01'
+    m: best
+    norm: true
+    norm_scale: '8'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 0
+    learning_rate: '0.001'
+    weight_decay: '0.0'
+    dropout: '0.75'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_a6ad2725867d4d31
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.01'
+    m: best
+    norm: true
+    norm_scale: '16'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 0
+    learning_rate: '0.01'
+    weight_decay: '0.01'
+    dropout: '0.5'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_80944c3259f5a12f
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.01'
+    m: best
+    norm: true
+    norm_scale: '32'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 8
+    learning_rate: '0.0001'
+    weight_decay: '0.0'
+    dropout: '0.25'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_fbb079c5648e2e6c
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.01'
+    m: best
+    norm: true
+    norm_scale: '64'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 8
+    learning_rate: '0.0001'
+    weight_decay: '0.0'
+    dropout: '0.25'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_5477e96d5bf8857e
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.01'
+    m: best
+    norm: true
+    norm_scale: '128'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 8
+    learning_rate: '0.0001'
+    weight_decay: '0.001'
+    dropout: '0.5'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_9c942d24ea721f9b
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.01'
+    m: best
+    norm: true
+    norm_scale: '256'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 16
+    learning_rate: '0.0001'
+    weight_decay: '0.01'
+    dropout: '0.25'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_a8d35578802ee7f5
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.01'
+    m: best
+    norm: true
+    norm_scale: '512'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 8
+    learning_rate: '0.0001'
+    weight_decay: '0.01'
+    dropout: '0.25'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_16171f4716678c57
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.01'
+    m: best
+    norm: true
+    norm_scale: '1024'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 8
+    learning_rate: '0.0001'
+    weight_decay: '0.01'
+    dropout: '0.25'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_847a3fc80312705e
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.01'
+    m: best
+    norm: true
+    norm_scale: '2048'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 4
+    learning_rate: '0.0001'
+    weight_decay: '0.01'
+    dropout: '0.25'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_881e393036b49210
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.01'
+    m: best
+    norm: true
+    norm_scale: '4096'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 8
+    learning_rate: '0.001'
+    weight_decay: '0.01'
+    dropout: '0.25'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_e20450b0ffb89c99
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.01'
+    m: best
+    norm: true
+    norm_scale: '8192'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 8
+    learning_rate: '0.001'
+    weight_decay: '0.01'
+    dropout: '0.25'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_a3805e40c14c85e1
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.01'
+    m: best
+    norm: true
+    norm_scale: '16384'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 4
+    learning_rate: '0.001'
+    weight_decay: '0.01'
+    dropout: '0.25'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_819466abc98e201d
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.01'
+    m: best
+    norm: true
+    norm_scale: '32768'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 16
+    learning_rate: '0.01'
+    weight_decay: '0.0001'
+    dropout: '0.25'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_8fb537aa983db1f1
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.01'
+    m: best
+    norm: true
+    norm_scale: '65536'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 4
+    learning_rate: '0.001'
+    weight_decay: '0.001'
+    dropout: '0.25'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_fc1f019b2f69fe7a
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.01'
+    m: best
+    norm: true
+    norm_scale: '131072'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 4
+    learning_rate: '0.001'
+    weight_decay: '0.0'
+    dropout: '0.25'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_907f8faac7f9e826
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.1'
+    m: best
+    norm: true
+    norm_scale: '0.015625'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 0
+    learning_rate: '0.01'
+    weight_decay: '0.001'
+    dropout: '0.5'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_f7ea7d82597415d6
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.1'
+    m: best
+    norm: true
+    norm_scale: '0.03125'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 0
+    learning_rate: '0.01'
+    weight_decay: '0.01'
+    dropout: '0.5'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_e5190c362e0b26a9
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.1'
+    m: best
+    norm: true
+    norm_scale: '0.0625'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 0
+    learning_rate: '0.01'
+    weight_decay: '0.01'
+    dropout: '0.5'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_bba821297f98884d
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.1'
+    m: best
+    norm: true
+    norm_scale: '0.125'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 0
+    learning_rate: '0.01'
+    weight_decay: '0.0001'
+    dropout: '0.5'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_e9cce9a14b6ea455
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.1'
+    m: best
+    norm: true
+    norm_scale: '0.25'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 0
+    learning_rate: '0.01'
+    weight_decay: '0.001'
+    dropout: '0.5'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_cc0bd7fc06d4d7e2
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.1'
+    m: best
+    norm: true
+    norm_scale: '0.5'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 0
+    learning_rate: '0.01'
+    weight_decay: '0.0001'
+    dropout: '0.5'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_e9a4e9fc8e37d89f
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.1'
+    m: best
+    norm: true
+    norm_scale: '1'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 0
+    learning_rate: '0.01'
+    weight_decay: '0.001'
+    dropout: '0.5'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_1e3b17b91d82459d
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.1'
+    m: best
+    norm: true
+    norm_scale: '2'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 0
+    learning_rate: '0.01'
+    weight_decay: '0.0001'
+    dropout: '0.5'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_7481182dc2005ab8
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.1'
+    m: best
+    norm: true
+    norm_scale: '4'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 32
+    learning_rate: '0.0001'
+    weight_decay: '0.0001'
+    dropout: '0.5'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_c97b68c90632eaac
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.1'
+    m: best
+    norm: true
+    norm_scale: '8'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 4
+    learning_rate: '0.0001'
+    weight_decay: '0.01'
+    dropout: '0.25'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_27c93a513562ef1e
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.1'
+    m: best
+    norm: true
+    norm_scale: '16'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 16
+    learning_rate: '0.0001'
+    weight_decay: '0.001'
+    dropout: '0.5'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_5ee27377fd372a12
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.1'
+    m: best
+    norm: true
+    norm_scale: '32'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 16
+    learning_rate: '0.0001'
+    weight_decay: '0.001'
+    dropout: '0.25'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_942d901b43faef5c
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.1'
+    m: best
+    norm: true
+    norm_scale: '64'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 8
+    learning_rate: '0.0001'
+    weight_decay: '0.01'
+    dropout: '0.25'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_6dab67c9d00bc97d
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.1'
+    m: best
+    norm: true
+    norm_scale: '128'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 4
+    learning_rate: '0.0001'
+    weight_decay: '0.01'
+    dropout: '0.25'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_d44a0cc9455948c7
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.1'
+    m: best
+    norm: true
+    norm_scale: '256'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 4
+    learning_rate: '0.0001'
+    weight_decay: '0.01'
+    dropout: '0.25'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_0837fe8d1e697cc1
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.1'
+    m: best
+    norm: true
+    norm_scale: '512'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 8
+    learning_rate: '0.001'
+    weight_decay: '0.01'
+    dropout: '0.25'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_8e930ebd93458097
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.1'
+    m: best
+    norm: true
+    norm_scale: '1024'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 8
+    learning_rate: '0.001'
+    weight_decay: '0.01'
+    dropout: '0.25'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_528d17e63ef70f5a
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.1'
+    m: best
+    norm: true
+    norm_scale: '2048'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 4
+    learning_rate: '0.001'
+    weight_decay: '0.01'
+    dropout: '0.25'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_93c3158e961899ad
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.1'
+    m: best
+    norm: true
+    norm_scale: '4096'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 16
+    learning_rate: '0.01'
+    weight_decay: '0.0001'
+    dropout: '0.25'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_c22e7abb7402d5c8
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.1'
+    m: best
+    norm: true
+    norm_scale: '8192'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 4
+    learning_rate: '0.001'
+    weight_decay: '0.0'
+    dropout: '0.25'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_865aef3dad0805ba
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.1'
+    m: best
+    norm: true
+    norm_scale: '16384'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 4
+    learning_rate: '0.01'
+    weight_decay: '0.001'
+    dropout: '0.25'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_41634d95ff6f8b45
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.1'
+    m: best
+    norm: true
+    norm_scale: '32768'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 8
+    learning_rate: '0.01'
+    weight_decay: '0.0001'
+    dropout: '0.25'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_00efea94f1b299f6
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.1'
+    m: best
+    norm: true
+    norm_scale: '65536'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 2
+    learning_rate: '0.01'
+    weight_decay: '0.001'
+    dropout: '0.25'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_8079d9bd853811db
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '0.1'
+    m: best
+    norm: true
+    norm_scale: '131072'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 4
+    learning_rate: '0.01'
+    weight_decay: '0.0001'
+    dropout: '0.25'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_d34cf53cdb2f4b7a
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '1'
+    m: best
+    norm: true
+    norm_scale: '0.015625'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 0
+    learning_rate: '0.001'
+    weight_decay: '0.0'
+    dropout: '0.75'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_9c9f260508caa91d
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '1'
+    m: best
+    norm: true
+    norm_scale: '0.03125'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 0
+    learning_rate: '0.001'
+    weight_decay: '0.0'
+    dropout: '0.75'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_e9b24ed1a0fa8f55
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '1'
+    m: best
+    norm: true
+    norm_scale: '0.0625'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 0
+    learning_rate: '0.001'
+    weight_decay: '0.0'
+    dropout: '0.75'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_5152afc28c692209
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '1'
+    m: best
+    norm: true
+    norm_scale: '0.125'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 0
+    learning_rate: '0.001'
+    weight_decay: '0.0'
+    dropout: '0.75'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_f0fddc8b2e13605d
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '1'
+    m: best
+    norm: true
+    norm_scale: '0.25'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 0
+    learning_rate: '0.001'
+    weight_decay: '0.0'
+    dropout: '0.75'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_e29835cea9f3c9f2
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '1'
+    m: best
+    norm: true
+    norm_scale: '0.5'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 16
+    learning_rate: '0.0001'
+    weight_decay: '0.001'
+    dropout: '0.25'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_ef86831e7d842fd3
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '1'
+    m: best
+    norm: true
+    norm_scale: '1'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 4
+    learning_rate: '0.0001'
+    weight_decay: '0.0'
+    dropout: '0.25'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_7731fd608063d782
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '1'
+    m: best
+    norm: true
+    norm_scale: '2'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 8
+    learning_rate: '0.0001'
+    weight_decay: '0.01'
+    dropout: '0.25'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_e502e784f2a46287
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '1'
+    m: best
+    norm: true
+    norm_scale: '4'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 8
+    learning_rate: '0.0001'
+    weight_decay: '0.01'
+    dropout: '0.25'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_84b01126f766a8c5
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '1'
+    m: best
+    norm: true
+    norm_scale: '8'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 8
+    learning_rate: '0.0001'
+    weight_decay: '0.01'
+    dropout: '0.25'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_fc4ec658d08b4f19
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '1'
+    m: best
+    norm: true
+    norm_scale: '16'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 4
+    learning_rate: '0.0001'
+    weight_decay: '0.01'
+    dropout: '0.25'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_8e7c92dc81f1145c
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '1'
+    m: best
+    norm: true
+    norm_scale: '32'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 8
+    learning_rate: '0.001'
+    weight_decay: '0.01'
+    dropout: '0.25'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_f19a67af132dbbcb
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '1'
+    m: best
+    norm: true
+    norm_scale: '64'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 8
+    learning_rate: '0.001'
+    weight_decay: '0.01'
+    dropout: '0.25'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_79acdeadadc6b291
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '1'
+    m: best
+    norm: true
+    norm_scale: '128'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 4
+    learning_rate: '0.001'
+    weight_decay: '0.01'
+    dropout: '0.25'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_e465b5796ace22e6
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '1'
+    m: best
+    norm: true
+    norm_scale: '256'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 8
+    learning_rate: '0.01'
+    weight_decay: '0.001'
+    dropout: '0.25'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_28f664b455e3e846
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '1'
+    m: best
+    norm: true
+    norm_scale: '512'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 16
+    learning_rate: '0.01'
+    weight_decay: '0.0001'
+    dropout: '0.25'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_7b1d694b07713e8c
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '1'
+    m: best
+    norm: true
+    norm_scale: '1024'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 8
+    learning_rate: '0.01'
+    weight_decay: '0.001'
+    dropout: '0.25'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_c0750d1e79a297ec
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '1'
+    m: best
+    norm: true
+    norm_scale: '2048'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 4
+    learning_rate: '0.01'
+    weight_decay: '0.001'
+    dropout: '0.25'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_3e1ebc2845fac02e
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '1'
+    m: best
+    norm: true
+    norm_scale: '4096'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 2
+    learning_rate: '0.01'
+    weight_decay: '0.001'
+    dropout: '0.25'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_32e59248e36788fc
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '1'
+    m: best
+    norm: true
+    norm_scale: '8192'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 4
+    learning_rate: '0.01'
+    weight_decay: '0.0001'
+    dropout: '0.25'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_abf3951e6c5b192c
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '1'
+    m: best
+    norm: true
+    norm_scale: '16384'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 4
+    learning_rate: '0.01'
+    weight_decay: '0.0001'
+    dropout: '0.25'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_8d24ac1ebf6ff196
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '1'
+    m: best
+    norm: true
+    norm_scale: '32768'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 4
+    learning_rate: '0.01'
+    weight_decay: '0.0'
+    dropout: '0.25'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_eea59ed5c8eebc32
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '1'
+    m: best
+    norm: true
+    norm_scale: '65536'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 4
+    learning_rate: '0.01'
+    weight_decay: '0.0'
+    dropout: '0.25'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_aae9fbc8b21ee9f8
+  figure_id: 7
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: raw
+    scale: '1'
+    mechanism: mbm
+    x_eps: '1'
+    m: best
+    norm: true
+    norm_scale: '131072'
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 4
+    learning_rate: '0.01'
+    weight_decay: '0.0'
+    dropout: '0.25'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3
+- point_id: f7_featfree_baseline
+  figure_id: 7
+  scalar_baseline: true
+  base_seed: 12345
+  fixed_params:
+    dataset: flickr
+    feature: random_normal
+    feature_dim: 12047
+    scale: '1'
+    random_normal_mean: '0'
+    random_normal_std: '1'
+    mechanism: mbm
+    x_eps: inf
+    m: best
+    norm: false
+    norm_scale: none
+    smoother: hoa
+    backbone: sage
+    use_nfr: false
+  candidate:
+    x_steps: 8
+    learning_rate: '0.001'
+    weight_decay: '0.0001'
+    dropout: '0.25'
+    tao2: none
+  defaults:
+    dataset:
+      data_range:
+      - 0.0
+      - 1.0
+      val_ratio: 0.25
+      test_ratio: 0.25
+    model:
+      hidden_dim: 16
+    trainer:
+      optimizer: adam
+      gradient_clip: false
+      gradient_clip_max_norm: 1.0
+      sim_epoch_refresh: false
+      show_progress: false
+      log_every_epoch: false
+    stage:
+      grid:
+        patience: 80
+        repeats: 1
+      verify:
+        patience: 150
+        repeats: 3

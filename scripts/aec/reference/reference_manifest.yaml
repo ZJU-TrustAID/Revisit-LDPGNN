@@ -1,0 +1,65 @@
+schema_version: 2
+figures:
+  1:
+    points: 504
+    seed_rows: 5040
+    repeats:
+    - 10
+  6:
+    points: 252
+    seed_rows: 2520
+    repeats:
+    - 10
+  3:
+    points: 90
+    seed_rows: 1800
+    repeats:
+    - 20
+  4:
+    points: 121
+    seed_rows: 1210
+    repeats:
+    - 10
+  5:
+    points: 81
+    seed_rows: 810
+    repeats:
+    - 10
+  7:
+    points: 121
+    seed_rows: 1210
+    repeats:
+    - 10
+files:
+  scripts/aec/fixed_hparams/figure1.yaml: 23aa4bd45e70ff3cc291491883120048993f2aa35c2ee66de6ea9db7f742242b
+  scripts/aec/fixed_hparams/figure3.yaml: 89f1a10d37560b5a2111097a1747365f797cc11d96d89c976cb23c13379ef540
+  scripts/aec/fixed_hparams/figure4.yaml: defb496e48e3c9678330e6b5003b2ff01fbdaf836accd7a72be3d73fd5a2d747
+  scripts/aec/fixed_hparams/figure5.yaml: 5f1140d2917d07be65fb93ee848d1c1e08894a235acc8d0f5654cf782fab7918
+  scripts/aec/fixed_hparams/figure6.yaml: f9449d145f100a44b399444aca8e199f6902f83492f54181d012fd8cb70b56d2
+  scripts/aec/fixed_hparams/figure7.yaml: 1d5ade8ab661b0b11e62c1e8c6e543360bf218a8ddfec7d7b0b2d165424d272e
+  scripts/aec/fixed_hparams/table4.yaml: aed1846fa1dd97d29559c29d300bb440da936b07e4f7cf51f6fd154a8146127a
+  scripts/aec/fixed_hparams/table6.yaml: 9a382e5201a19b929f57d756a8c79a42e926031d2cf27aa170fa57101dc3a14f
+  scripts/aec/reference/figure1_plot_data.csv: e4a5c9aa9a1763eec3dc4a4f30ff46e809366420864c6e12e4947c2475b20c26
+  scripts/aec/reference/figure1_points.csv: 8afd865c7c6f63e458115aef5e7cdfa8fe0609d74b127396a36c9d76d3b21d68
+  scripts/aec/reference/figure3_plot_data.csv: 6714f3eb66a551e24abad16c2aeddcb585c2bba349fb9f5cbfe7a6184eca4977
+  scripts/aec/reference/figure3_points.csv: 232b95bad10f16210a7d1474adef7699c893867644eacb88bec6568961a424cf
+  scripts/aec/reference/figure4_plot_data.csv: 8bbfed13f0c1c44f9fa635f2f54b54b4b36ba6ed907b2e87387acb81c787a20d
+  scripts/aec/reference/figure4_points.csv: 9facd9730e6849fc8be74e1941460d3318ae6a37d083a60c9a8d6b5dbcd6e7cd
+  scripts/aec/reference/figure5_plot_data.csv: 99f1fac985349ca945a3c059cab0e1a982f5e25515024b00239ea8517d21e8d1
+  scripts/aec/reference/figure5_points.csv: fd9ec45459e60c34e2e42e9a36b6dcdefee86416348284789e38a0e8a34bdbb2
+  scripts/aec/reference/figure6_plot_data.csv: 16471c636a65b26cc6964ca82bba29dc59efa7b67ae0809affe5546adf5722f8
+  scripts/aec/reference/figure6_points.csv: 2501424b1717919a420293ebe6ac1d53ed489dcef76ccec7184a696cf28e43d2
+  scripts/aec/reference/figure7_plot_data.csv: 73d95c9a834005a4229c937ddd7b70c6eb74a462ae99f8ff508847184c240034
+  scripts/aec/reference/figure7_points.csv: 777babde5618ea561e8650b0e9366d8d60b6d933f6bc10efcf9d9845a6afd5e3
+  scripts/aec/reference/table4_seed_rows.csv: 685bb488d7af43e7a53d03d96fee2012bdb14083bc72885a957e4d40a5099c0d
+  scripts/aec/reference/table6_seed_rows.csv: 3acd9af3a55f87499f3f3d7f04a975247b69ab0068696d1345a18272843421c0
+tables:
+  table4:
+    seed_rows: 120
+    settings:
+    - FeatFree-P
+  table6:
+    seed_rows: 240
+    settings:
+    - FeatFree-Kprop
+    - FeatFree-HOA

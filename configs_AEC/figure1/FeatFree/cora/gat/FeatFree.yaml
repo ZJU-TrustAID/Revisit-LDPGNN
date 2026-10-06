@@ -1,0 +1,99 @@
+seed: 12345
+
+device:
+  device: gpu
+  cpu_worker_count: null
+  gpu_ids: 
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+  max_parallel_per_gpu: 20
+  gpu_launch_interval_sec: 0.5
+
+defaults:
+  dataset:
+    data_range: [0.0, 1.0]
+    val_ratio: 0.25
+    test_ratio: 0.25
+  model:
+    hidden_dim: 16
+  trainer:
+    optimizer: adam
+    gradient_clip: false
+    gradient_clip_max_norm: 1.0
+    sim_epoch_refresh: false
+    show_progress: false
+    log_every_epoch: false
+  stage:
+    grid:
+      patience: 80
+      repeats: 1
+    verify:
+      patience: 150
+      repeats: 10
+
+search_space:
+  dataset:
+    datasets:
+      - cora
+  feature_transformation:
+    features:
+      - random_normal
+    sim_reference_eps: []
+    feature_dim:
+      - 1433
+    scale:
+      - 1
+    random_normal_mean: 
+      - 0
+    random_normal_std: 
+      - 1.0
+    shared_value: []
+    degree_bucket_num_buckets: []
+    degree_bucket_range_max: []
+    deepwalk_walk_length: []
+    deepwalk_number_walks: []
+    deepwalk_window_size: []
+    deepwalk_workers: []
+    deepwalk_undirected: []
+  feature_perturbation: []
+  calibrator:
+    norm:
+      - false
+    norm_scale: []
+    x_steps:
+      - 0
+      - 2
+      - 4
+      - 8
+      - 16
+      - 32
+      - 64
+    smoother:
+      - hoa
+  model:
+    backbones:
+      - gat
+    dropout:
+      - 0.25
+      - 0.5
+      - 0.75
+  trainer:
+    learning_rate:
+      - 0.01
+      - 0.001
+      - 0.0001
+    weight_decay:
+      - 0.0
+      - 0.0001
+      - 0.001
+      - 0.01
+  nfr:
+    use_nfr:
+      - false
+    tao2: []
